@@ -2,20 +2,46 @@
     border: 10px solid blueviolet;
     display:flex;
     width: 100%;
+    color: blueviolet;
+    font-family: "poppins";
 }
 .left{
 display: flex;
-width: 30%;
-border: 1px solid #000;
-justify-content: center;
+width: 35%;
+
+flex-direction: column;
 
 }
 .profile{
     width: 100%;
     max-width: 250px;
     padding: 5px;
+    margin: auto;
+
 }
 .right{
-    border: 1px solid #000;
-    width: 70%;
+
+    width: 60%;
+    margin-left: 20px;
+    padding: 10px;
+}
+.heading{
+    font-size: 25px;
+}
+.text{
+    font-size: 15px;
+}
+.about,.language,.skills{
+    padding: 10px;
+}
+li{
+    font-weight: 600;
+}
+.sub-head{
+    font-weight: 600;
+    font-size: 16px;
+}
+.sub-head-big{
+    font-weight: 200;
+    font-size: 20px;
 }
